@@ -18,7 +18,11 @@
             </intent-filter>
         </activity>
         <!-- FullImageActivity -->
-        <activity android:name=".FullImageActivity"></activity>
+        <activity android:name=".FullImageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AndroidGridLayoutActivity" />
+        </activity>
     </application>
 
 </manifest>

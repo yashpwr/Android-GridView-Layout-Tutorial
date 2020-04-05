@@ -18,11 +18,18 @@ public class ImageAdapter extends BaseAdapter {
             R.drawable.pic_4, R.drawable.pic_2,
             R.drawable.pic_1, R.drawable.pic_4,
             R.drawable.pic_2, R.drawable.pic_4,
-            R.drawable.pic_1, R.drawable.pic_4, R.drawable.pic_2
+            R.drawable.pic_1, R.drawable.pic_4,
+            R.drawable.pic_1, R.drawable.pic_2,
+            R.drawable.pic_4, R.drawable.pic_4,
+            R.drawable.pic_1, R.drawable.pic_4,
+            R.drawable.pic_4, R.drawable.pic_2,
+            R.drawable.pic_1, R.drawable.pic_4,
+            R.drawable.pic_2, R.drawable.pic_4,
+            R.drawable.pic_1, R.drawable.pic_4
     };
 
     // Constructor
-    public ImageAdapter(Context c){
+    ImageAdapter(Context c){
         mContext = c;
     }
 
